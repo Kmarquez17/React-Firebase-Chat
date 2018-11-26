@@ -1,0 +1,46 @@
+{
+  "name": "react-firebase-chat",
+  "version": "1.0.0",
+  "description": "App para pedir la Carta a los Reyes Magos con Firebase y React",
+  "main": "public/index.js",
+  "scripts": {
+    "build": "webpack --colors",
+    "serve": "webpack-dev-server --content-base public/ --colors --progress",
+    "deploy": "webpack -p",
+    "start": "npm run build && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/carlosazaustre/react-firebase-chat.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "chat"
+  ],
+  "author": "Carlos Azaustre <cazaustre@gmail.com> (https://carlosazaustre.es/blog)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosazaustre/react-firebase-chat/issues"
+  },
+  "homepage": "https://github.com/carlosazaustre/react-firebase-chat#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "firebase": "^3.6.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
